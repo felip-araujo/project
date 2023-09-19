@@ -51,4 +51,15 @@ img {
     object-fit:cover; 
     border-radius: 8px;
    
+} 
+
+.texto {
+    background-color: gray;
+    padding: 95px;
+} 
+
+.paragrafo {
+    text-align: center; 
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400px;
 }
