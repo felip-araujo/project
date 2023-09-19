@@ -12,7 +12,8 @@
 .cb {
     
     font-family: 'Montserrat', sans-serif; 
-    font-size: 30px; 
+    font-weight: 500; 
+    font-size: 18px; 
     text-align: center; 
     margin-top: 22px;
 }
@@ -20,12 +21,34 @@
 
 
 .intro {
-    background-color: black; 
-    padding: 95px; 
+    background-image: linear-gradient(to left, purple, orange);
+    padding:250px; 
     color: white; 
     margin-top: 15px; 
     text-align: center; 
     font-family: 'Montserrat', sans-serif; 
-    font-size: 30px;
+    font-size: 30px; 
 }
 
+.titulo {
+    text-align: center;
+    font-family: 'Montserrat', 'sans-serif'; 
+    font-size: 36px;
+    padding: 25px;
+} 
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 5w) ;
+    grid-gap: 15px ;
+    padding: 15px;
+} 
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover; 
+    border-radius: 8px;
+   
+}
